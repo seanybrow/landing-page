@@ -1,0 +1,154 @@
+
+.navmain {
+    background-color: #1F2937;
+    overflow: hidden;
+    position: fixed;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+.navmain a {
+    float:left;
+    color: #f9faf8;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.navmain a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navmain a.active {
+   text-decoration:underline;
+}
+
+.first {
+    background-color: #1F2937;
+    width: 100%;
+    height: 500px;
+    color: white;
+    
+}
+
+.second {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+
+.third {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 500px;
+}
+
+.fourth {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.fifth {
+    background-color: #1F2937;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+
+.four-text {
+    position: relative;
+    top: 30%;
+}
+
+.button1 {
+  border: black;
+  color: white;
+  background-color: #008cba;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#home {
+    position: relative;
+    top: 150px;
+    font-size: 48px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.gol {
+    width: 80%;
+    position: relative;
+    text-align: center;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cool-stuff {
+    text-align: center;
+}
+
+#quote {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+
+.gollum {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.gpic {
+    width: 400px;
+    border-radius: 30px;
+    left: 900px;
+    bottom: 50px;
+    position: relative;
+}
+
+.pics {
+    display: flex;
+    width: 350px;
+    position: relative;
+    gap: 100px;
+    left: 250px;
+    top: 20%;
+}
+
+.one {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.two {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.three {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
